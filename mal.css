@@ -1,0 +1,124 @@
+/* CÓDIGO CRIADO POR MITCH COM ALGUNS ALTERAÇÕES FEITAS POR GABSEU — USO LIVRE */
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap');
+@impor url ('https://fonts.googleapis.com/css?family=Playfair+Display');
+@impor url ('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+.susus {color: #999;
+  width: 500px; outline: 1px solid #000; outline-offset: 10px;
+  margin: 30px auto;
+  background: #000;
+
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto;
+grid-template-areas:
+  "sususpost";
+    --biotico: #31633e;
+    --cacador: #3EB595;
+    --ciborgue: #79A1F7;
+    --feiticeiro: #5b2491;
+    --gorgona: #ff8097;
+    --licantropo: #ff8d00;
+    --metamorfo: #C76969;
+    --sereiano: #80D2F2;
+    --vampiro: #821718;
+    
+ #biotico .susus { 
+     --cor-grupo: #31633e;
+ }
+
+#cacador .susus { 
+ --cor-grupo: #3EB595;
+}
+
+  #ciborgue .susus { 
+     --cor-grupo: #79A1F7;
+    }
+
+    #feiticeiro .susus { 
+     --cor-grupo: #5b2491;
+    }
+
+    #gorgona .susus { 
+     --cor-grupo: #ff8097;
+    }
+
+     
+    #licantropo .susus { 
+    --cor-grupo: #ff8d00;
+    }
+
+    #metamorfo .susus { 
+    --cor-grupo: #C76969;
+    }
+
+    #sereiano .susus { 
+    --cor-grupo: #80D2F2;
+    }
+
+    #vampiro .susus { 
+    --cor-grupo: #821718;
+    }
+   
+  .susus b { color: var(--cor-grupo);
+    padding: 2px 0px;
+    font-weight: 700; 
+    font-size: 12px; 
+    font-weight: 700; 
+    font-family: Libre Baskerville;}
+
+  .susus .sususpost { grid-area: sususpost;
+    padding: 60px;
+    text-align: justify;
+    font-family: Golos Text;
+    font-size: 11.5px!important;
+    line-height: 210%;
+    white-space: pre-line;}
+
+  .sususaina { top: 0px; padding: 20px;
+    position: sticky; grid-area: suroragif;
+    background: #ddd; background-image: url(https://i.imgur.com/YIAFjnk.png);
+    background-size: auto; background-position-y: 0px;
+    background-position-x: 0px; background-attachment: fixed; background-blend-mode: multiply;
+    text-transform: uppercase; font-family: Golos Text;
+    font-size: 8px; color: #fff; font-style: italic;
+    letter-spacing: 1px; justify-content: space-evenly;}
+
+.sususpost h1 { border-top: 1px solid #242323; border-bottom: 1px solid #242323; padding: 15px 0px; text-align: center; margin-top: -20px; margin-bottom: 50px; font-weight: 100; letter-spacing: 2px; text-transform: uppercase; font-family: Playfair Display; font-size: 20px; }
+
+.sususpost bt {
+    color: var(--biotico);
+    }
+
+.sususpost cc {
+    color: var(--cacador);
+    }
+
+.sususpost cb {
+    color: var(--ciborgue);
+    }
+
+.sususpost ft {
+    color: var(--feiticeiro);
+    }
+
+.sususpost go {
+    color: var(--gorgona);
+    }
+
+.sususpost lt {
+    color: var(--licantropo);
+    }
+
+.sususpost mt {
+    color: var(--metamorfo);
+    }
+
+
+.sususpost si {
+    color: var(--sereiano);
+    }
+
+.sususpost vp {
+    color: var(--vampiro);
+    }
