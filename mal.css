@@ -22,6 +22,7 @@ grid-template-areas:
     --metamorfo: #C76969;
     --sereiano: #80D2F2;
     --vampiro: #821718;}
+    --demonio: #A3C0A2;}
     
  #biotico .susus { 
      --cor-grupo: #31633e;
@@ -58,6 +59,10 @@ grid-template-areas:
 
     #vampiro .susus { 
     --cor-grupo: #821718;
+    }
+
+    #demonio .susus { 
+    --cor-grupo: #A3C0A2;
     }
    
   .susus b { color: var(--cor-grupo);
@@ -121,4 +126,8 @@ grid-template-areas:
 
 .sususpost vp {
     color: var(--vampiro);
+    }
+
+.sususpost vp {
+    color: var(--demonio);
     }
