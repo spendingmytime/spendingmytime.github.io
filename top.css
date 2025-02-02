@@ -1,0 +1,50 @@
+/* CÓDIGO CRIADO POR MITCH COM ALGUNS ALTERAÇÕES FEITAS POR GABSEU — USO LIVRE */
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap');
+@import url ('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url ('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+.susus {color: #999;
+  width: 500px; outline: 1px solid #000; outline-offset: 10px;
+  margin: 30px auto;
+  background: #000;
+
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto;
+grid-template-areas:
+  "sususpost";
+    --deimos: #BD5435;}
+    
+ #deimos .susus { 
+     --cor-grupo: #BD5435;
+ }
+   
+  .susus b { color: var(--cor-grupo);
+    padding: 2px 0px;
+    font-weight: 700; 
+    font-size: 12px; 
+    font-weight: 700; 
+    font-family: Libre Baskerville;}
+
+  .susus .sususpost { grid-area: sususpost;
+    padding: 60px;
+    text-align: justify;
+    font-family: Golos Text;
+    font-size: 11.5px!important;
+    line-height: 210%;
+    white-space: pre-line;}
+
+  .sususaina { top: 0px; padding: 20px;
+    position: sticky; grid-area: suroragif;
+    background: #ddd; background-image: url(https://i.imgur.com/YIAFjnk.png);
+    background-size: auto; background-position-y: 0px;
+    background-position-x: 0px; background-attachment: fixed; background-blend-mode: multiply;
+    text-transform: uppercase; font-family: Golos Text;
+    font-size: 8px; color: #fff; font-style: italic;
+    letter-spacing: 1px; justify-content: space-evenly;}
+
+.sususpost h1 { border-top: 1px solid #242323; border-bottom: 1px solid #242323; padding: 15px 0px; text-align: center; margin-top: -20px; margin-bottom: 50px;  font-weight: 100; letter-spacing: 2px; text-transform: uppercase; font-family: Playfair Display; font-size: 20px; margin-left: -15px; margin-right: -15px;}
+
+.sususpost dm {
+    color: var(--deimos);
+    }
