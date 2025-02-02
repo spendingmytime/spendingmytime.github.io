@@ -22,7 +22,7 @@ grid-template-areas:
   .susus b { color: var(--cor-grupo);
     padding: 2px 0px;
     font-weight: 700; 
-    font-size: 12px; 
+    font-size: 13px; 
     font-weight: 700; 
     font-family: Libre Baskerville;}
 
@@ -30,7 +30,7 @@ grid-template-areas:
     padding: 60px;
     text-align: justify;
     font-family: Golos Text;
-    font-size: 11.5px!important;
+    font-size: 13px!important;
     line-height: 210%;
     white-space: pre-line;}
 
